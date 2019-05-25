@@ -253,11 +253,21 @@ h6 {
 
 #intro #home-scroll-down {
   text-align: center;
-  margin: 85vh auto;
+  margin: 0 auto;
+}
+
+#intro #home-scroll-down #motto {
+  text-align: center;
+  margin: 20vh auto 63vh auto;
   color: #fff;
 }
 
-#intro #home-scroll-down button {
+#intro #home-scroll-down a {
+  margin: 25vh auto;
+  color: #fff;
+}
+
+#intro #home-scroll-down a button {
   border-radius: 20px;
 }
 
@@ -571,7 +581,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #d68243;
   transition: .5s;
 }
 
@@ -583,7 +593,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #51985a;
   transition: .5s;
 }
 
@@ -1239,7 +1249,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  padding: 0 0 30px 0;
+  padding: 0;
   font-size: 14px;
   background: #fff;
 }
@@ -1587,6 +1597,9 @@ h6 {
 }
 
 @media (max-width: 574px) {
+  #intro #home-scroll-down #motto {
+    font-size: 1rem;
+  }
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
@@ -1594,7 +1607,11 @@ h6 {
 
 @media (max-height: 415px) {
   #intro #home-scroll-down {
-    margin: 75vh auto;
+    margin: 0 auto;
+  }
+
+  #intro #home-scroll-down #motto {
+    margin: 25vh auto 35vh auto;
   }
 }
 
