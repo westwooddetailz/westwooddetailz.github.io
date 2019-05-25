@@ -1598,6 +1598,7 @@ h6 {
 
 @media (max-width: 574px) {
   #intro #home-scroll-down #motto {
+    margin: 17vh auto 60vh auto;
     font-size: 1rem;
   }
   #footer .footer-top .social-links a {
