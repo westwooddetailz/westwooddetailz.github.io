@@ -858,11 +858,9 @@ h6 {
   font-weight: 700;
   margin-bottom: 14px;
   padding-bottom: 0;
+  color: #fff !important;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-  color: #fff;
-}
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
   color: #1bb1dc;
@@ -913,6 +911,7 @@ h6 {
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
+
 
 /* Testimonials Section
 --------------------------------*/
